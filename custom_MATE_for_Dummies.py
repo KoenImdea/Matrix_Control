@@ -81,6 +81,7 @@ def set_foreign_parameter(name, data_type, value):
     if func_params:
         _, mo.mate.rc = mo.mate.remote_access(func_params, 1)
 
+"""
 mo.mate.connect()
 if mo.mate.online:
     args_x = [['dummy_0', 'boolean', '', True, False],
@@ -97,3 +98,4 @@ if mo.mate.online:
     remove_foreign_parameter('dummy_4')
     print(get_foreign_parameter(*args[:2]))
     #mo.mate.disconnect()
+"""
